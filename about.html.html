@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A&N Education</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+      <nav>
+            <a href="index.html"><img src="C:/Users/angwe/OneDrive/Desktop/eduford_img/A&Nlogo.png"> </a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="HideMenu()"></i>
+              <ul>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/index.html">HOME</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/about.html.html">ABOUT</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/Open-Internships.html.html">OPEN-INTERNSHIPS</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/blog.html.html">BLOG</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/contact.html.html">CONTACT</a></li>
+              </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+
+      </nav>
+        <h1>About Us </h1>
+
+    </section>
+
+    <!---------about us content--------->
+
+    <section class="about-us">
+
+      <div class="row">
+        <div class="about-col">
+            <h1>Onestop shop for all your fulltime, internship and graduate school help</h1>
+            <p>A&N is able to assist the recent graduates or undergraduate students that are seeking internship or fulltime job opportunities in companies that sponsor visas<br> 
+            We connect you to our network of mentors accross different industries. We also provide programming lessons for those who are seeking techical roles</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+          <img src="C:/Users/angwe/OneDrive/Desktop/eduford_img/about.jpg">
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+    
+    <!----------Footer------->
+
+    <section class="footer">                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+      <h4>ABOUT US</h4>
+      <p>The about us page will be updated soon</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+      </div>
+
+
+    </section>
+
+<!-------JavaScript for Toggle Menu -------->
+
+ <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function ShowMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function HideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+
+ </script>   
+
+</body>
+
+</html>

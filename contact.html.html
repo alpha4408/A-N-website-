@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A&N Education</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+      <nav>
+            <a href="index.html"><img src="C:/Users/angwe/OneDrive/Desktop/eduford_img/A&Nlogo.png"> </a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="HideMenu()"></i>
+              <ul>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/index.html">HOME</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/About.html">ABOUT</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/Open-Internships.html">OPEN-INTERNSHIPS</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/blog.html">BLOG</a></li>
+                <li> <a href="C:/Users/angwe/OneDrive/Desktop/eduford_img/contact.html">CONTACT</a></li>
+              </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+
+      </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!---------contact us--------->
+    <section class="location">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1622945645948!6m8!1m7!1sK-CP8agLrP59p0PxYaaqqA!2m2!1d33.45407593657865!2d-112.3238646875604!3f262.27!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+          <div class="contact-col">
+              <div>
+                <i class="fa fa-home"></i>
+                <span>
+                  <h5>1050 N Fairway Dr, Avondale, AZ 85323</h5>
+                  <p>Arizona, USA</p>
+                </span>
+              </div>
+              <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  <h5>+1 813-692-0593</h5>
+                  <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+              </div>
+              <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                  <h5>aninvestmentgrp@outlook.com </h5>
+                  <p>Email us your query</p>
+                </span>
+              </div>
+          </div>
+          <div class="contact-col">
+
+            <form action="form-handler.php" method="POST">
+              <input type="text" name="name" placeholder="Enter your name" required>
+              <input type="email" name="email" placeholder="Enter your email address" required>
+              <input type="text" name="subject" placeholder="Enter your subject" required>
+              <textarea rows="8" name="message" placeholder="Message" required></textarea>
+              <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+          </div>
+          
+        </div>
+
+    </section>
+
+    
+    
+    <!----------Footer------->
+
+    <section class="footer">                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+      <h4>ABOUT US</h4>
+      <p>The about us page will be updated soon</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+      </div>
+
+
+    </section>
+
+<!-------JavaScript for Toggle Menu -------->
+
+ <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function ShowMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function HideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+
+ </script>   
+
+</body>
+
+</html>
